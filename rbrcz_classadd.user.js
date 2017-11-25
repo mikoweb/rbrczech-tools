@@ -1,19 +1,17 @@
 // ==UserScript==
-// @name			RBR Czech - Class Addendum
-// @namespace 		RBRCzechScripts
-// @author			Łukasz Demolin "Maggot"
-// @version 		0.8.0.4
-// @date         2016-09-22
-// @icon         https://dl.dropboxusercontent.com/u/10106549/e-rajdy/richard_burns_rally.ico
-// @description		Adds omitted class links on rbr.onlineracing.cz
-// @description		Also adds missing tracks on the "Ranks" and "Record" pages everywhere. Added dropdown-menu with stage select on stagerec/stagerank pages.
-// @description		Unfortunately, the times and car names are not displayed (major hurdle).
+// @name	RBR Czech - Class Addendum
+// @namespace 	RBRCzechScripts
+// @author	Łukasz Demolin "Maggot"
+// @version 	0.8.0.4
+// @date        2016-09-22
+// @icon        http://rbr.onlineracing.cz/images/logo_rbrcz.jpg
+// @description	Adds omitted class links on rbr.onlineracing.cz
+// @description	Also adds missing tracks on the "Ranks" and "Record" pages everywhere. Added dropdown-menu with stage select on stagerec/stagerank pages.
+// @description	Unfortunately, the times and car names are not displayed (major hurdle).
 // @require     https://code.jquery.com/jquery-3.0.0.js
 // @include     http://rbr.onlineracing.cz/index.php*
-// @grant       GM_getValue
-// @grant       GM_setValue
-// @grant       GM_xmlhttpRequest
-
+// @grant       none
+// @require     https://gist.githubusercontent.com/arantius/3123124/raw/grant-none-shim.js
 // ==/UserScript==
 
 // Populating a handy faux-dictionary with classes and their correct ids (to avoid messing up and hardcoding).
